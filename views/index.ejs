@@ -1,15 +1,29 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-    <title>Hello, world!</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/2f2669a2e9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/static/css/style.css" />
+    <link rel="stylesheet" href="/static/css/header.css" />
+    <link rel="stylesheet" href="/static/css/search.css" />
+    <title>Document</title>
   </head>
   <body>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <section id="header">
+      <div class="header__logo">Benefit1004</div>
+      <div class="header__menu"><i class="fas fa-bars"></i></div>
+    </section>
+    <section id="searchM">
+      <input type="text" class="searchM__input" />
+      <i class="fas fa-search searchM__icon"></i>
+    </section>
+    <section id="items"></section>
+
+    <!--     <section id="footer"></section>
+    
+    <i class="fas fa-search searchM__icon"></i> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="/static/js/search.js"></script>
   </body>
 </html>
