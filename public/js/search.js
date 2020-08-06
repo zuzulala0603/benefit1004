@@ -1,5 +1,5 @@
 let searchInput = document.querySelector(".searchM__input");
-
+let availableItem = ["딸기", "딸기2", "딸기3", "바나나", "키위"];
 /* searchInput.addEventListener("keyup", () => {
   let input = searchInput.value;
   console.log(input);
@@ -8,20 +8,21 @@ let searchInput = document.querySelector(".searchM__input");
   });
 });
  */
-$(function () {
-  var availableCity = ["서울", "부산", "대구", "광주", "울산"];
 
-  $(".searchM__input").autocomplete({
-    source: availableCity,
+let test = document.querySelector(".ui-menu-item");
+console.log(test);
 
-    select: function (event, ui) {
-      console.log(ui.item);
-    },
+$.getJSON("/static/info/item.json", function (data) {
+  console.log(data);
+});
 
-    focus: function (event, ui) {
-      return false;
+searchInput.addEventListener("focus", (e) => console.log((e.target.placeholder = "")));
 
-      //event.preventDefault();
-    },
-  });
+$(".searchM__input").autocomplete({
+  source: availableItem,
+  select: function (event, ui) {},
+  focus: function (event, ui) {
+    return false;
+    //event.preventDefault();
+  },
 });

@@ -1,0 +1,26 @@
+{
+  "name": "benefit1004",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuzulala0603/benefit1004.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zuzulala0603/benefit1004/issues"
+  },
+  "homepage": "https://github.com/zuzulala0603/benefit1004#readme"
+}
