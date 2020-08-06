@@ -12,6 +12,7 @@ app.use("/", itemRouter);
 
 //
 app.get("/", (req, res) => {
+  /*   response.setHeader("Set-Cookie", "HttpOnly;Secure;SameSite=Strict"); */
   res.render("index");
 });
 
