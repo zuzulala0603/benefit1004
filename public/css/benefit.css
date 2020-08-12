@@ -1,0 +1,15 @@
+#benefits {
+  width: 65%;
+  min-height: 50vh;
+  margin: auto;
+  margin-top: 20vh;
+}
+
+.benefit__haeder {
+  display: block;
+  /*   background-color: #f0f0f0; */
+  border-left: 3px solid green;
+  padding: 15px;
+  font-size: 35px;
+  font-family: "Black Han Sans", sans-serif;
+}

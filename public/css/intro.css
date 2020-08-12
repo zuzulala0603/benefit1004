@@ -1,0 +1,67 @@
+#intro {
+  display: flex;
+  width: 65%;
+  min-height: 50vh;
+  margin: auto;
+  margin-top: 20vh;
+}
+
+.intro__left {
+  width: 65%;
+  min-height: 50vh;
+}
+
+.intro__right {
+  margin-left: 5%;
+  width: 35%;
+  min-height: 50vh;
+}
+
+.intro__title {
+  display: inline-block;
+  color: #57ae8c;
+  font-size: 35px;
+  border-bottom: 2px solid #57ae8c;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.intro__description {
+  margin-top: 13px;
+  margin-bottom: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 17px;
+}
+
+.intro__item__imgs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro__item__img__style {
+  margin-top: 100px;
+  width: 45%;
+  height: 100%;
+}
+
+@media (max-width: 1025px) {
+  #intro {
+    display: block;
+    width: 90%;
+  }
+
+  .intro__left {
+    width: 90%;
+    margin: auto;
+  }
+
+  .intro__right {
+    width: 90%;
+    margin: auto;
+  }
+  .intro__item__imgs {
+    display: block;
+  }
+  .intro__item__img__style {
+    width: 100%;
+  }
+}
