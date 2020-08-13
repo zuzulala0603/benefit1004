@@ -1,6 +1,6 @@
 #intro {
   display: flex;
-  width: 65%;
+  width: 55%;
   min-height: 50vh;
   margin: auto;
   margin-top: 20vh;
@@ -27,7 +27,7 @@
 
 .intro__description {
   margin-top: 13px;
-  margin-bottom: 20px;
+  margin-bottom: 10vh;
   font-family: "Noto Sans KR", sans-serif;
   font-size: 17px;
 }

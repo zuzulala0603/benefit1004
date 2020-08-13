@@ -38,3 +38,50 @@
   background-color: #ba9d8a;
   border: 1px solid #ba9d8a;
 }
+
+/*  */
+/*  */
+
+.header__search__input {
+  display: none;
+  width: 40%;
+  height: 60%;
+  margin-right: 30px;
+  background-color: white;
+}
+
+.header__search__icon {
+  font-size: 30px;
+  color: white;
+  margin-right: 1%;
+}
+
+.showSearchInput {
+  animation-name: showSearchInput;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.hideSearchInput {
+  animation-name: hideSearchInput;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes showSearchInput {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 40%;
+  }
+}
+
+@keyframes hideSearchInput {
+  0% {
+    width: 40%;
+  }
+  100% {
+    width: 0.5%;
+  }
+}

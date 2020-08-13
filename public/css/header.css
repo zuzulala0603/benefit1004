@@ -14,20 +14,16 @@
   font-size: 35px;
   margin-left: 2%;
   width: 15%;
+  cursor: pointer;
 }
 
 .header__menu {
   display: flex;
   width: 85%;
+  height: 100%;
   justify-content: flex-end;
   align-items: center;
   margin-right: 2%;
-}
-
-.header__search__icon {
-  font-size: 30px;
-  color: white;
-  margin-right: 1%;
 }
 
 .header__menu__icon {
