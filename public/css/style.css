@@ -8,17 +8,17 @@ input:focus {
   outline: none;
 }
 
-.tags {
+/* .tags {
   display: inline-block;
   background-color: #8d94ba;
   color: white;
   cursor: pointer;
   border-radius: 8.5px;
-  font-size: 17.5px;
+  font-size: 2vh;
   padding: 8.5px;
   margin-bottom: 10px;
 }
-
+ */
 .tags:hover {
   background-color: #464a5d;
 }

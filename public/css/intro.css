@@ -1,67 +1,141 @@
 #intro {
   display: flex;
   width: 55%;
-  min-height: 50vh;
+  min-height: 70vh;
   margin: auto;
   margin-top: 20vh;
 }
-
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ  */
 .intro__left {
   width: 65%;
-  min-height: 50vh;
+  min-height: 70vh;
 }
-
-.intro__right {
-  margin-left: 5%;
-  width: 35%;
-  min-height: 50vh;
+.intro__item {
+  width: 100%;
+  min-height: 70vh;
 }
-
-.intro__title {
-  display: inline-block;
-  color: #57ae8c;
-  font-size: 35px;
-  border-bottom: 2px solid #57ae8c;
-  font-family: "Black Han Sans", sans-serif;
+.intro__item__box {
+  width: 100%;
+  min-height: 30vh;
 }
-
-.intro__description {
-  margin-top: 13px;
+.intro__item__description {
+  margin-top: 2vh;
   margin-bottom: 10vh;
   font-family: "Noto Sans KR", sans-serif;
-  font-size: 17px;
+  font-size: 2vh;
 }
-
 .intro__item__imgs {
   display: flex;
-  justify-content: space-between;
+  width: 100%;
+  height: 35vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .intro__item__img__style {
-  margin-top: 100px;
-  width: 45%;
+  width: 80%;
   height: 100%;
+}
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ  */
+.intro__right {
+  margin-left: 5%;
+  width: 35%;
+  min-height: 70vh;
+}
+.intro__class {
+  width: 100%;
+  min-height: 20vh;
+}
+.intro__nutrients {
+  width: 100%;
+  min-height: 23vh;
+}
+.intro__benefit {
+  width: 100%;
+  min-height: 27vh;
+}
+.intro__description {
+  margin-top: 2vh;
+  margin-bottom: 10vh;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 2vh;
+}
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+.intro__title {
+  display: inline-block;
+  color: #57ae8c;
+  font-size: 4vh;
+  border-bottom: 0.25vh solid #57ae8c;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+.intro__item__img__left,
+.intro__item__img__right {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  font-size: 3.5vh;
+  width: 10%;
+  color: #aaaaaa;
+}
+.intro__item__img__left:hover,
+.intro__item__img__right:hover {
+  color: #001c40;
+}
+
+.tag {
+  display: inline-flex;
+  background-color: #8d94ba;
+  color: white;
+  cursor: pointer;
+  border-radius: 1vh;
+  font-size: 1.7vh;
+  padding: 8.5px;
+  margin-bottom: 10px;
+}
+.tag:hover {
+  background-color: #001c40;
 }
 
 @media (max-width: 1025px) {
   #intro {
     display: block;
     width: 90%;
+    margin-top: 5vh;
   }
-
+  /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
   .intro__left {
     width: 90%;
+    min-height: 20vh;
     margin: auto;
   }
-
+  .intro__item {
+    min-height: 20vh;
+  }
+  .intro__item__box {
+    min-height: 40vh;
+  }
+  .intro__item__description {
+    margin-bottom: 3vh;
+  }
+  /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
   .intro__right {
     width: 90%;
+    min-height: 10vh;
     margin: auto;
   }
-  .intro__item__imgs {
-    display: block;
-  }
-  .intro__item__img__style {
+  .intro__class,
+  .intro__nutrients,
+  .intro__benefit {
     width: 100%;
+    min-height: 6.5vh;
+    margin-bottom: 2.5vh;
+  }
+  .intro__description {
+    margin-bottom: 2vh;
+  }
+
+  .intro__item__img__style {
+    width: 80%;
   }
 }
