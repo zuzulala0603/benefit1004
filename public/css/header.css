@@ -9,11 +9,11 @@
 }
 
 .header__logo {
+  display: inline-block;
   font-family: "Dancing Script", cursive;
   color: white;
   font-size: 35px;
   margin-left: 2%;
-  width: 15%;
   cursor: pointer;
 }
 

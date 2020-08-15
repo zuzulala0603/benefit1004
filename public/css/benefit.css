@@ -2,7 +2,6 @@
   width: 55%;
   margin: auto;
   margin-top: 20vh;
-  /*   background-color: darkgreen; */
   margin-bottom: 15vh;
 }
 .benefit {
@@ -24,6 +23,7 @@
   font-family: "Do Hyeon", sans-serif;
 }
 .benefit__body {
+  width: 100%;
   margin-top: 5vh;
   font-size: 20px;
   line-height: 35px;
@@ -32,18 +32,33 @@
 .benefit__left {
   width: 47.5%;
   height: 100%;
-
-  /*   background-color: darkcyan; */
 }
 
 .benefit__right {
   width: 47.5%;
   height: 100%;
-
-  /*   background-color: darkkhaki; */
 }
 .benefit__img__style {
   width: 100%;
   height: 100%;
   background-color: rebeccapurple;
+}
+@media (max-width: 1025px) {
+  #benefits {
+    width: 90%;
+    display: block;
+  }
+  .benefit {
+    width: 90%;
+    display: block;
+    margin: auto;
+  }
+  .benefit__body {
+    margin-bottom: 10vh;
+  }
+
+  .benefit__left,
+  .benefit__right {
+    width: 100%;
+  }
 }
