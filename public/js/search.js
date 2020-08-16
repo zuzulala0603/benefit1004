@@ -25,4 +25,5 @@ if (w > 1024) {
     }
   });
 } else {
+  console.log("hi");
 }

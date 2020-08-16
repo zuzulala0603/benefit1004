@@ -29,4 +29,5 @@
 .header__menu__icon {
   font-size: 40px;
   color: white;
+  cursor: pointer;
 }

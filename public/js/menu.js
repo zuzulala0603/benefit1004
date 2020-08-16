@@ -6,11 +6,18 @@ menuIcon.addEventListener("click", (e) => {
   menu.classList.add("showMenu");
   menu.classList.remove("closeMenu");
 });
-/* menuCloseIcon.addEventListener("click", (e) => {
-  menu.classList.add("closeMenu");
-  menu.classList.remove("showMenu");
-  menu.addEventListener("animationend", () => {
-    menu.style.display = "none";
-  });
+
+document.querySelector("body").addEventListener("click", (e) => {
+  if (
+    !e.target.classList.contains("menu") &&
+    !e.target.classList.contains("header__menu__icon") &&
+    !e.target.classList.contains("menu__items") &&
+    !e.target.classList.contains("menu__item") &&
+    menu.classList.contains("showMenu")
+  ) {
+    menu.classList.add("closeMenu");
+    menu.classList.remove("showMenu");
+    console.log("닫힘");
+    console.log(e.target);
+  }
 });
- */
