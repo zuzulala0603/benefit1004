@@ -46,7 +46,7 @@
   width: 100%;
   min-height: 20vh;
 }
-.intro__nutrients {
+.intro__kcal {
   width: 100%;
   min-height: 23vh;
 }
@@ -125,7 +125,7 @@
     margin: auto;
   }
   .intro__class,
-  .intro__nutrients,
+  .intro__kcal,
   .intro__benefit {
     width: 100%;
     min-height: 6.5vh;

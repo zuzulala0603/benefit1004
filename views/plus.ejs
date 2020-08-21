@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/css/plus.css" />
+    <title>아이템 추가</title>
+  </head>
+  <body>
+    <section id="main">
+      <div class="block">
+        <div class="caption">아이템 이름:</div>
+        <input type="text" class="input__item" />
+      </div>
+      <div class="block">
+        <div class="caption">아이템 설명:</div>
+        <input type="text" class="input__item__description" />
+      </div>
+      <div class="block">
+        <div class="caption">아이템 분류:</div>
+        <input type="text" class="input__item__classification" />
+      </div>
+      <div class="block">
+        <div class="caption">아이템 칼로리:</div>
+        <input type="text" class="input__item__kcal" />
+      </div>
+      <div class="block">
+        <div class="caption">아이템 효능 태그:</div>
+        <div class="pushblock">
+          <div class="benefit__block">
+            <input type="text" class="input__item__tag" />
+            <input type="text" class="input__item__benefit" />
+          </div>
+          <div class="benefit__block">
+            <input type="text" class="input__item__tag" />
+            <input type="text" class="input__item__benefit" />
+          </div>
+          <div class="benefit__block">
+            <input type="text" class="input__item__tag" />
+            <input type="text" class="input__item__benefit" />
+          </div>
+        </div>
+        <button class="input__plusBtn">추가</button>
+        <button class="submitBtn">완료</button>
+      </div>
+    </section>
+    <!-- !!! -->
+    <section id="result">
+      <div class="resultArea"></div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="/static/js/plus.js"></script>
+  </body>
+</html>

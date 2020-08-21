@@ -3,7 +3,7 @@ let availableItem = ["딸기", "딸기2", "딸기3", "바나나", "키위"];
 let searchIcon = document.querySelector(".header__search__icon");
 let headerSearchInput = document.querySelector(".header__search__input");
 
-if (w > 1024) {
+/* if (w > 1024) {
   searchIcon.addEventListener("click", (e) => {
     e.preventDefault();
     searchIcon.style.display = "none";
@@ -24,6 +24,15 @@ if (w > 1024) {
       });
     }
   });
-} else {
-  console.log("hi");
-}
+} */
+$(function () {
+  $(".searchM__input").autocomplete({
+    source: availableItem,
+    select: function (event, ui) {
+      console.log(ui.item);
+    },
+    focus: function (event, ui) {
+      return false;
+    },
+  });
+});

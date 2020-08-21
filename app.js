@@ -17,6 +17,12 @@ app.use("/", itemRouter);
 app.get("/", (req, res) => {
   res.render("index");
 });
+app.get("/template", (req, res) => {
+  res.render("template");
+});
+app.get("/plus", (req, res) => {
+  res.render("plus");
+});
 app.get("/robots.txt", (req, res) => {
   res.type("text/plain");
   res.send("User-agent: *\nAllow: /");
