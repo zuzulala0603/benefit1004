@@ -17,6 +17,9 @@ app.use("/", itemRouter);
 app.get("/", (req, res) => {
   res.render("index");
 });
+app.get("/123", (req, res) => {
+  res.render("123");
+});
 app.get("/template", (req, res) => {
   res.render("template");
 });
