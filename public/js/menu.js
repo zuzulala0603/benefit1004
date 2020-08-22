@@ -1,4 +1,3 @@
-let menu = document.getElementById("menu");
 let menuIcon = document.querySelector(".header__menu__icon");
 let menuCloseIcon = document.querySelector(".menu__close__icon");
 menuIcon.addEventListener("click", (e) => {
