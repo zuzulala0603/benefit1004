@@ -1,14 +1,11 @@
 #intro {
   display: flex;
-  width: 50%;
+  width: 100%;
   min-height: 70vh;
   margin: auto;
   margin-top: 20vh;
 }
-.intro__aside {
-  margin-left: 5%;
-  background-color: teal;
-}
+
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ  */
 .intro__left {
   width: 65%;

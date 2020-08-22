@@ -13,7 +13,8 @@ header.innerHTML = headerHtml;
 
 let footer = document.getElementById("footer");
 let footerHtml = `      <div class="footer__copyright">
-Copyright © Benefit1004 All rights reserved.
+Copyright © Benefit1004 
+<div>All rights reserved.</div>
 </div>
 <div class="footer__email">
 이메일 문의 : zuzulala0603@gmail.com

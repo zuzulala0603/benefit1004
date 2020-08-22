@@ -1,0 +1,13 @@
+main {
+  width: 50%;
+  margin-left: 20%;
+  min-height: 70vh;
+  margin-top: 20vh;
+}
+@media (max-width: 1025px) {
+  main {
+    display: block;
+    width: 90%;
+    margin-top: 5vh;
+  }
+}

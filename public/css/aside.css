@@ -1,0 +1,13 @@
+aside {
+  position: absolute;
+  width: 25%;
+  right: 0;
+  top: 30vh;
+  min-height: 70vh;
+  margin: auto;
+  /*   background-color: teal; */
+}
+
+.aside__adBlock {
+  margin-bottom: 20vh;
+}
