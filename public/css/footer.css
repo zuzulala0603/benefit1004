@@ -17,3 +17,13 @@
   -webkit-user-select: text;
   user-select: text;
 }
+@media (max-width: 767px) {
+  #footer {
+    min-height: 35vh;
+  }
+}
+@media (max-width: 1024px) {
+  #footer {
+    min-height: 25vh;
+  }
+}

@@ -8,6 +8,26 @@ aside {
   /*   background-color: teal; */
 }
 
-.aside__adBlock {
+.adBlock__aside {
   margin-bottom: 20vh;
+}
+.adBlock__footer {
+  display: none;
+}
+iframe {
+  width: 50vw;
+  margin: auto;
+}
+@media (max-width: 1025px) {
+  iframe {
+    width: 100vw;
+    height: 100px;
+    background-color: white;
+  }
+  .adBlock__footer {
+    display: block;
+    position: fixed;
+    bottom: -5px;
+    margin-left: 0;
+  }
 }
