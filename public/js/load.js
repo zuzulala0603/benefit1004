@@ -40,3 +40,4 @@ adFooterBlockScript2.text = ` new PartnersCoupang.G({ id: 308693 });`;
 adFooterBlock.appendChild(adFooterBlockScript2);
 adFooterBlock.style.position = "fixed";
 adFooterBlock.style.bottom = "0";
+adFooterBlock.style.backgroundColor = "red";
