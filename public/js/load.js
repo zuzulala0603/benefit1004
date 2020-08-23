@@ -30,10 +30,9 @@ let menuHtml = `      <div class="menu__items">
 menu.innerHTML = menuHtml;
 
 /* ad */
-
+/* 
 let adBlockFooter = document.getElementById("adBlock__footer");
 let adBlockFooterHtml = `
-<script>
-  new PartnersCoupang.G({ id: 308693 });
-</script>`;
+
 adBlockFooter.innerHTML = adBlockFooterHtml;
+ */
