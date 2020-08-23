@@ -1,5 +1,8 @@
 #adBlock__footer {
   display: none;
+  min-height: 100px;
+  width: 100%;
+  background-color: rebeccapurple;
 }
 iframe {
   width: 50vw;
