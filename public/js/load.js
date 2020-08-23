@@ -32,7 +32,7 @@ menu.innerHTML = menuHtml;
 /* ad */
 
 let adBlockFooter = document.getElementById("adBlock__footer");
-let adBlockFooterHtml = `<script src="https://ads-partners.coupang.com/g.js"></script>
+let adBlockFooterHtml = `
 <script>
   new PartnersCoupang.G({ id: 308693 });
 </script>`;
