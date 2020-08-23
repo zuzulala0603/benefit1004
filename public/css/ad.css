@@ -1,17 +1,4 @@
-aside {
-  position: absolute;
-  width: 25%;
-  right: 0;
-  top: 30vh;
-  min-height: 70vh;
-  margin: auto;
-  /*   background-color: teal; */
-}
-
-.adBlock__aside {
-  margin-bottom: 20vh;
-}
-.adBlock__footer {
+#adBlock__footer {
   display: none;
 }
 iframe {
@@ -24,7 +11,7 @@ iframe {
     height: 100px;
     background-color: white;
   }
-  .adBlock__footer {
+  #adBlock__footer {
     display: block;
     position: fixed;
     bottom: -5px;
