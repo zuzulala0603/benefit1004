@@ -1,3 +1,5 @@
+let w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+
 /* header */
 
 let header = document.getElementById("header");
@@ -31,17 +33,16 @@ menu.innerHTML = menuHtml;
 
 /* ad */
 
-/* let adTestBlock = document.getElementById("adBlock__test");
-let adTestBlockScript = document.createElement("script");
-adTestBlockScript.src = "/static/js/test.js";
-adTestBlock.appendChild(adTestBlockScript);
-console.log(adTestBlockScript);
- */
-
 let adFooterBlock = document.getElementById("adBlock__footer");
-/* let adFooterBlockScript1 = document.createElement("script");
-adFooterBlockScript1.src = "https://ads-partners.coupang.com/g.js"; */
 let adFooterBlockScript2 = document.createElement("script");
 adFooterBlockScript2.text = ` new PartnersCoupang.G({ id: 308693 });`;
 
 adFooterBlock.appendChild(adFooterBlockScript2);
+
+if (w < 1025) {
+  adFooterBlock.style.display = "block";
+  adFooterBlock.style.position = "fixed";
+  adFooterBlock.style.bottom = "-5px";
+} else {
+  adFooterBlock.style.display = "none";
+}

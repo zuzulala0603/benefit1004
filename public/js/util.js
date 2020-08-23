@@ -1,4 +1,3 @@
-let w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 let pathName = window.location.pathname;
 let item = window.location.pathname.split("/")[3];
 /* logo */
