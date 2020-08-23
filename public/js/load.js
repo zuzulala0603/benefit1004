@@ -28,3 +28,12 @@ let menuHtml = `      <div class="menu__items">
 <div class="menu__item menu__search">검색하기</div>
 </div>`;
 menu.innerHTML = menuHtml;
+
+/* ad */
+
+let adBlockFooter = document.getElementById("adBlock__footer");
+let adBlockFooterHtml = `<script src="https://ads-partners.coupang.com/g.js"></script>
+<script>
+  new PartnersCoupang.G({ id: 308693 });
+</script>`;
+adBlockFooter.innerHTML = adBlockFooterHtml;
