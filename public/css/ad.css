@@ -4,6 +4,14 @@
   width: 100%;
   background-color: rosybrown;
 }
+#adBlock__asdide {
+  position: absolute;
+  right: 0;
+  top: 28vh;
+  width: 30%;
+  height: 100vh;
+  background-color: royalblue;
+}
 iframe {
   width: 50vw;
   margin: auto;
