@@ -39,10 +39,9 @@ console.log(adTestBlockScript);
  */
 
 let adFooterBlock = document.getElementById("adBlock__footer");
-let adFooterBlockScript1 = document.createElement("script");
-adFooterBlockScript1.src = "https://ads-partners.coupang.com/g.js";
+/* let adFooterBlockScript1 = document.createElement("script");
+adFooterBlockScript1.src = "https://ads-partners.coupang.com/g.js"; */
 let adFooterBlockScript2 = document.createElement("script");
 adFooterBlockScript2.text = ` new PartnersCoupang.G({ id: 308693 });`;
 
-adFooterBlock.appendChild(adFooterBlockScript1);
 adFooterBlock.appendChild(adFooterBlockScript2);
