@@ -13,7 +13,7 @@
   background-color: royalblue;
 }
 iframe {
-  width: 50vw;
+  width: 100%;
   margin: auto;
 }
 @media (max-width: 1025px) {
