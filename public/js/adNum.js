@@ -1,2 +1,2 @@
 let adFooterNum = 308693;
-console.log("hi");
+let adAsideNum = 309421;

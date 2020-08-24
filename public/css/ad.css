@@ -6,10 +6,10 @@
 }
 #adBlock__asdide {
   position: absolute;
-  right: 0;
+  right: 5vw;
   top: 28vh;
-  width: 30%;
-  height: 100vh;
+  width: 20vw;
+  min-height: 100vh;
   background-color: royalblue;
 }
 iframe {
