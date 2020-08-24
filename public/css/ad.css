@@ -28,4 +28,7 @@ iframe {
     bottom: -5px;
     margin-left: 0;
   }
+  #adBlock__asdide {
+    display: none;
+  }
 }
