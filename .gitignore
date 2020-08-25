@@ -1,7 +1,11 @@
 node_modules
  
+views/plus.ejs
+
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+
+
