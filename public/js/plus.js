@@ -99,6 +99,9 @@ submitBtn.addEventListener("click", () => {
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <script src="https://kit.fontawesome.com/2f2669a2e9.js" crossorigin="anonymous"></script>
+      <script src="https://ads-partners.coupang.com/g.js"></script>
+      <script src="/static/js/adNum.js"></script>
+      <script data-ad-client="ca-pub-1432916343353764" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <title>${name_ko} 효능, 영양 성분, 칼로리 알아보기 - Benefit1004</title>
       <!-- CSS -->
       <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR&display=swap" rel="stylesheet" />
@@ -109,6 +112,9 @@ submitBtn.addEventListener("click", () => {
       <link rel="stylesheet" href="/static/css/search.css" />
       <link rel="stylesheet" href="/static/css/intro.css" />
       <link rel="stylesheet" href="/static/css/benefit.css" />
+      <link rel="stylesheet" href="/static/css/footer.css" />
+      <link rel="stylesheet" href="/static/css/layout.css" />
+      <link rel="stylesheet" href="/static/css/ad.css" /
       <!-- Meta -->
       <meta name="description" content="" />
       <meta property="og:locale" content="ko_KR" />
@@ -135,6 +141,7 @@ submitBtn.addEventListener("click", () => {
           <div class="menu__item menu__search">검색하기</div>
         </div>
       </section>
+      <main>
       <section id="intro">
         <div class="intro__left">
           <div class="intro__item">
@@ -171,7 +178,37 @@ submitBtn.addEventListener("click", () => {
      ${newBenefitHtml_ko}
         <!--  -->
       </section>
-      <section id="search"></section>
+      
+      </main>
+      <!-- main END -->
+
+      <div id="adBlock__asdide">
+      <div class="adBlock">
+        <script>
+          new PartnersCoupang.G({ id: adAsideNum });
+        </script>
+      </div>
+      <div class="adBlock">
+        <script>
+          new PartnersCoupang.G({ id: adAsideNum2 });
+        </script>
+      </div>
+
+      <div class="adBlock">
+        <script>
+          new PartnersCoupang.G({ id: adAsideNum });
+        </script>
+      </div>
+    </div>
+    <div id="adBlock__footer">
+      <script>
+        console.log(adFooterNum);
+        new PartnersCoupang.G({ id: adFooterNum });
+      </script>
+    </div>
+    <div id="adBlock__test"></div>
+
+
       <section id="footer"></section>
   
       <!--  -->
