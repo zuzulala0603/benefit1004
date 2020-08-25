@@ -5,7 +5,7 @@
 }
 
 #adBlock__footer {
-  display: none;
+  margin-top: 10vh;
   min-height: 100px;
   width: 100%;
 }
@@ -27,6 +27,7 @@ iframe {
   }
   #adBlock__footer {
     display: block;
+    margin-top: 0;
     position: fixed;
     bottom: -5px;
     margin-left: 0;
