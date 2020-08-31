@@ -1,5 +1,3 @@
-let w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-
 /* header */
 
 let header = document.getElementById("header");

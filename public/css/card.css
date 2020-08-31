@@ -1,0 +1,13 @@
+#cards {
+  display: flex;
+  max-width: 1200px;
+  min-height: 10vh;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 15vh;
+}
+
+.card{
+    
+}

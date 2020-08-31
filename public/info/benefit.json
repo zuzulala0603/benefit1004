@@ -1,7 +1,13 @@
 {
   "benefit": [
     ["소화 기능", "digestion", "소화 기능에 도움을 준다."],
-    ["혈압 개선", "pressure", "혈압에 좋다."],
-    ["체중 감량", "diet", "체중 감량에 도움을 준다."]
+    ["혈압 개선", "blood pressure", "혈압에 좋다.", "Good for blood pressure"],
+    ["체중 감량", "diet", "체중 감량에 도움을 준다.", "Help with weight loss"],
+    ["눈 건강", "eye", "눈 건강에 도움을 준다.", "Help with eye health"],
+    ["피로 회복", "fatigue", "피로 회복에 좋다.", "Good for fatigue recovery"],
+    ["치아 건강", "teeth", "치아 건강에 좋다.", "Good for dental health"],
+    ["항암", "anticancer", "항암 효과가 있다.", "Anticancer effect"],
+    ["피부 미용", "skin", "피부를 아름답게 해준다.", "Make your skin beautiful."],
+    ["스트레스", "stress", "스트레스를 완화해준다", "It relieves stress."]
   ]
 }
