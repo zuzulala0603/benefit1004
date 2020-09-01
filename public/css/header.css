@@ -15,6 +15,7 @@
   font-size: 35px;
   margin-left: 2%;
   cursor: pointer;
+  word-break: keep-all;
 }
 
 .header__menu {
