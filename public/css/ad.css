@@ -20,6 +20,10 @@
 iframe {
   width: 100%;
 }
+#adBlock__amazoneFooter {
+  margin: 0 20%;
+}
+
 @media (max-width: 1025px) {
   iframe {
     width: 100vw;

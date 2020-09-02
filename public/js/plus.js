@@ -113,8 +113,10 @@ submitBtn.addEventListener("click", () => {
   <html lang="ko">
     <head>
       <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" />
       <script src="https://kit.fontawesome.com/2f2669a2e9.js" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
       <script src="https://ads-partners.coupang.com/g.js"></script>
       <script src="/static/js/adNum.js"></script>
       <script data-ad-client="ca-pub-1432916343353764" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -138,8 +140,7 @@ submitBtn.addEventListener("click", () => {
       <meta property="og:type" content="article" />
       <meta property="og:site_name" content="Benefit1004" />
       <meta property="og:title" content=" ${name_ko}의 놀라운 효능 ${benefitBody_ko.length}가지! 알고 먹으면 더 좋은 ${name_ko} | Benefit1004" />
-      <meta property="og:description" content="우리 주변에서
-      쉽게 찾을 수 있는 ${name_ko} 우리가 몰랐던 ${name_ko}의 효능들에는 무엇이 있을까? ${metaDescriptionHtml_ko}" />
+      <meta property="og:description" content="우리 주변에서 쉽게 찾을 수 있는 ${name_ko} 우리가 몰랐던 ${name_ko}의 효능들에는 무엇이 있을까? ${metaDescriptionHtml_ko}" />
       <meta property="og:image" content="/static/img/${name_en}/${name_en}_1.jpg" />
       <meta property="og:image:width" content="500" />
       <meta property="og:image:height" content="750" />
@@ -229,8 +230,7 @@ submitBtn.addEventListener("click", () => {
       <section id="footer"></section>
   
       <!--  -->
-      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="/static/js/load.js"></script>
       <script src="/static/js/menu.js"></script>
       <script src="/static/js/util.js"></script>
       <script src="/static/js/search.js"></script>
@@ -241,8 +241,10 @@ submitBtn.addEventListener("click", () => {
   <html lang="en">
     <head>
       <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" />
       <script src="https://kit.fontawesome.com/2f2669a2e9.js" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
       <script src="https://ads-partners.coupang.com/g.js"></script>
       <script src="/static/js/adNum.js"></script>
       <script data-ad-client="ca-pub-1432916343353764" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -259,7 +261,7 @@ submitBtn.addEventListener("click", () => {
       <link rel="stylesheet" href="/static/css/benefit.css" />
       <link rel="stylesheet" href="/static/css/footer.css" />
       <link rel="stylesheet" href="/static/css/layout.css" />
-      <link rel="stylesheet" href="/static/css/ad.css" />
+      <link rel="stylesheet" href="/static/css/ad_en.css" />
       <!-- Meta -->
       <meta name="description" content="Wonderful health benefits of ${name_en} you might not know about. ${metaDescriptionHtml_en}" />
       <meta property="og:locale" content="ko_KR" />
@@ -328,36 +330,84 @@ submitBtn.addEventListener("click", () => {
 
       <div id="adBlock__asdide">
       <div class="adBlock">
-        <script>
-          new PartnersCoupang.G({ id: adAsideNum });
+        <script type="text/javascript">
+          amzn_assoc_placement = "adunit0";
+          amzn_assoc_tracking_id = "benefit1004-20";
+          amzn_assoc_ad_mode = "search";
+          amzn_assoc_ad_type = "smart";
+          amzn_assoc_marketplace = "amazon";
+          amzn_assoc_region = "US";
+          amzn_assoc_default_search_phrase = item;
+          amzn_assoc_default_category = "Grocery";
+          amzn_assoc_linkid = "f8adf60a8f1550e0a63e6af16fa8b71d";
+          amzn_assoc_search_bar = "true";
+          amzn_assoc_search_bar_position = "top";
+          amzn_assoc_title = "Shop Related Products";
+          amzn_assoc_default_browse_node = "16310101";
         </script>
+        <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
       </div>
       <div class="adBlock">
-        <script>
-          new PartnersCoupang.G({ id: adAsideNum2 });
+        <script type="text/javascript">
+          amzn_assoc_placement = "adunit0";
+          amzn_assoc_tracking_id = "benefit1004-20";
+          amzn_assoc_ad_mode = "search";
+          amzn_assoc_ad_type = "smart";
+          amzn_assoc_marketplace = "amazon";
+          amzn_assoc_region = "US";
+          amzn_assoc_default_search_phrase = "grocery";
+          amzn_assoc_default_category = "Grocery";
+          amzn_assoc_linkid = "f8adf60a8f1550e0a63e6af16fa8b71d";
+          amzn_assoc_search_bar = "true";
+          amzn_assoc_title = "Shop Related Products";
+          amzn_assoc_default_browse_node = "16310101";
+          amzn_assoc_search_bar_position = "bottom";
         </script>
+        <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
       </div>
-
       <div class="adBlock">
-        <script>
-          new PartnersCoupang.G({ id: adAsideNum });
+        <script type="text/javascript">
+          amzn_assoc_placement = "adunit0";
+          amzn_assoc_tracking_id = "benefit1004-20";
+          amzn_assoc_ad_mode = "search";
+          amzn_assoc_ad_type = "smart";
+          amzn_assoc_marketplace = "amazon";
+          amzn_assoc_region = "US";
+          amzn_assoc_default_search_phrase = "food";
+          amzn_assoc_default_category = "Grocery";
+          amzn_assoc_linkid = "f8adf60a8f1550e0a63e6af16fa8b71d";
+          amzn_assoc_search_bar = "true";
+          amzn_assoc_title = "Shop Related Products";
+          amzn_assoc_default_browse_node = "16310101";
+          amzn_assoc_search_bar_position = "bottom";
         </script>
+        <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
       </div>
     </div>
-    <div id="adBlock__footer">
-      <script>
-        console.log(adFooterNum);
-        new PartnersCoupang.G({ id: adFooterNum });
+    <!-- ------------------------------------------------------------------------------- -->
+    <div id="adBlock__amazoneFooter">
+      <script type="text/javascript">
+        amzn_assoc_placement = "adunit0";
+        amzn_assoc_tracking_id = "benefit1004-20";
+        amzn_assoc_ad_mode = "search";
+        amzn_assoc_ad_type = "smart";
+        amzn_assoc_marketplace = "amazon";
+        amzn_assoc_region = "US";
+        amzn_assoc_default_search_phrase = item;
+        amzn_assoc_default_category = "Grocery";
+        amzn_assoc_linkid = "f8adf60a8f1550e0a63e6af16fa8b71d";
+        amzn_assoc_search_bar = "true";
+        amzn_assoc_search_bar_position = "top";
+        amzn_assoc_title = "Shop Related Products";
+        amzn_assoc_default_browse_node = "16310101";
       </script>
+      <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
     </div>
-    <div id="adBlock__test"></div>
-
 
       <section id="footer"></section>
   
       <!--  -->
-      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="/static/js/load.js"></script>
       <script src="/static/js/menu.js"></script>
       <script src="/static/js/util.js"></script>
       <script src="/static/js/search.js"></script>

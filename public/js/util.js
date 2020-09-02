@@ -1,9 +1,13 @@
 let pathName = window.location.pathname;
-let item = window.location.pathname.split("/")[3];
+
 /* logo */
 let logo = document.querySelector(".header__logo");
 logo.addEventListener("click", () => {
-  window.location = "/";
+  if (country == "en") {
+    window.location = "/en";
+  } else {
+    window.location = "/";
+  }
 });
 /* benefit block */
 let benefit = document.querySelectorAll(".benefit");

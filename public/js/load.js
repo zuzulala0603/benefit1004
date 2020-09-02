@@ -12,13 +12,24 @@ header.innerHTML = headerHtml;
 /* footer */
 
 let footer = document.getElementById("footer");
-let footerHtml = `      <div class="footer__copyright">
+let footerHtml;
+if (country == "ko") {
+  footerHtml = `<div class="footer__copyright">
 Copyright © Benefit1004 
 <div>All rights reserved.</div>
 </div>
 <div class="footer__email">
 이메일 문의 : zuzulala0603@gmail.com
 </div>`;
+} else if (country == "en") {
+  footerHtml = `<div class="footer__copyright">
+Copyright © Benefit1004 
+<div>All rights reserved.</div>
+</div>
+<div class="footer__email">
+Contact : zuzulala0603@gmail.com
+</div>`;
+}
 footer.innerHTML = footerHtml;
 
 /* menu */
@@ -29,13 +40,7 @@ let menuHtml = `      <div class="menu__items">
 </div>`;
 menu.innerHTML = menuHtml;
 
-/* ad */
+/* recommand */
 
-/* let adFooterBlock = document.getElementById("adBlock__footer");
-let adFooterBlockScript2 = document.createElement("script");
-adFooterBlockScript2.text = ` new PartnersCoupang.G({ id: 308693 });`;
-
-adFooterBlock.appendChild(adFooterBlockScript2);
-adFooterBlock.style.position = "fixed";
-adFooterBlock.style.bottom = "0";
-adFooterBlock.style.backgroundColor = "red"; */
+let category = document.querySelector(".intro__class__description").innerHTML;
+console.log(category);
