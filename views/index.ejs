@@ -1,47 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- meta -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--   <meta name="naver-site-verification" content="18f2989e00331c640f9f804d8757a8e77f7603ad" /> -->
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="/static/js/adNum.js"></script>
     <script src="https://kit.fontawesome.com/2f2669a2e9.js" crossorigin="anonymous"></script>
+    <!-- css -->
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
     <link rel="stylesheet" href="/static/css/style.css" />
     <link rel="stylesheet" href="/static/css/header.css" />
     <link rel="stylesheet" href="/static/css/search.css" />
+    <link rel="stylesheet" href="/static/css/footer.css" />
+    <link rel="stylesheet" href="/static/css/menu.css" />
     <link rel="stylesheet" href="/static/css/card.css" />
-    <title>Document</title>
-    <!-- 
-
-    <script data-ad-client="ca-pub-1432916343353764" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
+    <link rel="stylesheet" href="/static/css/index.css" />
+    <title>Benefit1004</title>
   </head>
   <body>
-    <section id="header">
-      <div class="header__logo">Benefit1004</div>
-      <div class="header__menu">
-        <i class="fas fa-search header__search__icon"></i>
-        <i class="fas fa-bars header__menu__icon"></i>
-      </div>
-    </section>
-    <!--     <section id="cards">
-      <div id="fruit" class="card">
-        <i class="fas fa-apple-alt card__icon"></i>
-        <div class="card__title">과일</div>
-      </div>
-    </section> -->
-    <section id="searchM">
-      <input type="text" class="searchM__input" placeholder="검색어를 입력하세요." />
-      <div class="icon__block">
-        <i class="fas fa-search searchM__icon"></i>
-      </div>
-    </section>
-    <section id="items"></section>
+    <section id="header"></section>
+    <section id="menu" class="menu"></section>
+    <main>
+      <section id="searchM">
+        <input type="text" class="searchM__input searchInput" placeholder="검색어를 입력하세요." />
+        <div class="icon__block">
+          <i class="fas fa-search searchM__icon"></i>
+        </div>
+      </section>
+      <div class="hr">카테고리</div>
+      <section id="cards">
+        <div class="card card__category">
+          <div class="card__icon">
+            <i class="fas fa-apple-alt"></i>
+          </div>
+          <div class="card__category__title">과일</div>
+        </div>
+        <div class="card card__category">
+          <div class="card__icon">
+            <i class="fas fa-seedling"></i>
+          </div>
+          <div class="card__category__title">채소</div>
+        </div>
+        <div class="card card__category">
+          <div class="card__icon">
+            <i class="fas fa-drumstick-bite"></i>
+          </div>
+          <div class="card__category__title">육류</div>
+        </div>
+        <div class="card card__category">
+          <div class="card__icon">
+            <i class="fas fa-fish"></i>
+          </div>
+          <div class="card__category__title">어류</div>
+        </div>
+      </section>
+      <div class="hr">최근 업데이트</div>
+      <section id="cards" class="cards__item"></section>
+    </main>
 
+    <section id="footer"></section>
     <!--     <section id="footer"></section>
     
     <i class="fas fa-search searchM__icon"></i> -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="/static/js/load.js"></script>
+    <script src="/static/js/getData.js"></script>
     <script src="/static/js/search.js"></script>
+    <script src="/static/js/indexLayout.js"></script>
   </body>
 </html>

@@ -13,7 +13,8 @@ header.innerHTML = headerHtml;
 
 let footer = document.getElementById("footer");
 let footerHtml;
-if (country == "ko") {
+
+if (country == "ko" || country == "") {
   footerHtml = `<div class="footer__copyright">
 Copyright © Benefit1004 
 <div>All rights reserved.</div>
@@ -34,13 +35,14 @@ footer.innerHTML = footerHtml;
 
 /* menu */
 
-let menu = document.getElementById("menu");
+/* let menu = document.getElementById("menu");
 let menuHtml = `      <div class="menu__items">
 <div class="menu__item menu__search">검색하기</div>
 </div>`;
-menu.innerHTML = menuHtml;
+menu.innerHTML = menuHtml; */
 
 /* recommand */
 
-let category = document.querySelector(".intro__class__description").innerHTML;
+/* let category = document.querySelector(".intro__class__description").innerHTML;
 console.log(category);
+ */

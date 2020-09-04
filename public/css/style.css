@@ -10,6 +10,16 @@
   word-break: break-all;
 }
 
+.hr {
+  display: flex;
+  width: 100%;
+  font-size: 30px;
+  text-indent: 18px;
+  align-items: center;
+  background-color: #8d94ba;
+  color: white;
+}
+
 input:focus {
   outline: none;
 }

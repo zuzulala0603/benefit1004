@@ -1,0 +1,14 @@
+main {
+  width: 60%;
+  margin-left: 20%;
+  min-height: 70vh;
+  margin-top: 20vh;
+}
+@media (max-width: 1024px) {
+  main {
+    width: 90%;
+    margin-left: 5%;
+    min-height: 0;
+    margin-top: 0;
+  }
+}
