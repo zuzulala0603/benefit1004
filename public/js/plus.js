@@ -220,7 +220,6 @@ submitBtn.addEventListener("click", () => {
     </div>
     <div id="adBlock__footer">
       <script>
-        console.log(adFooterNum);
         new PartnersCoupang.G({ id: adFooterNum });
       </script>
     </div>

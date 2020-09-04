@@ -6,7 +6,7 @@ logo.addEventListener("click", () => {
   if (country == "en") {
     window.location = "/en";
   } else {
-    window.location = "/";
+    window.location = "/ko";
   }
 });
 /* benefit block */
