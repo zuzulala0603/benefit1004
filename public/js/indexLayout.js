@@ -1,3 +1,4 @@
+/* window.location.href = `/${language}`; */
 let searchM = document.getElementById("searchM");
 let searchMInput = document.querySelector(".searchM__input");
 let cards = document.getElementById("cards");

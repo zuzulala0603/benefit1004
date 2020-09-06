@@ -15,7 +15,7 @@ app.use("/", itemRouter);
 
 //
 app.get("/", (req, res) => {
-  res.redirect("/ko");
+  res.render("index");
 });
 
 app.get("/plus", (req, res) => {
