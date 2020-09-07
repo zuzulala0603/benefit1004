@@ -2,6 +2,8 @@
   "item": [
     ["바나나", "banana", "fruit"],
     ["포도", "grape", "fruit"],
-    ["사과", "apple", "fruit"]
+    ["사과", "apple", "fruit"],
+    ["블루베리", "blueberry", "fruit"],
+    ["감자", "potato", "vegatable"]
   ]
 }
