@@ -13,6 +13,7 @@
     ["당뇨 개선", "diabetes", "당뇨병 위험을 줄인다.", "Reduce your risk of diabetes"],
     ["간 해독", "liver", "간을 해독시킨다.", "Detoxify the liver"],
     ["면역력", "immunity", "면역력을 증진시킨다", "Improve your immune system"],
-    ["폐 기능", "lungs", "폐 기능을 향상시킨다.", "Increase lung capacity"]
+    ["폐 기능", "lungs", "폐 기능을 향상시킨다.", "Increase lung capacity"],
+    ["빈혈 예방", "anemia", "빈혈에 좋습니다.", "Prevents anemia."]
   ]
 }
