@@ -7,6 +7,4 @@ let item = window.location.pathname.split("/")[3];
 let country = window.location.pathname.split("/")[1];
 let language = window.navigator.userLanguage || window.navigator.language.split("-")[0];
 
-/* if (country !== language) {
-  window.location.href = "/en";
-} */
+console.log(language);
