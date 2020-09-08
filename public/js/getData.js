@@ -10,7 +10,7 @@ $.getJSON("../static/info/item.json", function (data) {
     availableItem_en.push(element[1]);
   });
 }).then(() => {
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 6; i++) {
     lastItem_ko = availableItem_ko[availableItem_ko.length - i - 1];
     lastItem_en = availableItem_en[availableItem_en.length - i - 1];
     newCardItemHtml += `<div class="card card__item" OnClick="location.href ='https://www.benefit1004.com/ko/item/${lastItem_en}'"  >

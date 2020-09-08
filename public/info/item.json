@@ -4,6 +4,7 @@
     ["포도", "grape", "fruit"],
     ["사과", "apple", "fruit"],
     ["블루베리", "blueberry", "fruit"],
-    ["감자", "potato", "vegatable"]
+    ["감자", "potato", "vegatable"],
+    ["딸기", "strawberry", "fruit"]
   ]
 }
