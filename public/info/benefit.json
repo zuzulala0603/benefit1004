@@ -16,6 +16,9 @@
     ["폐 기능", "lungs", "폐 기능을 향상시킨다.", "Increase lung capacity"],
     ["빈혈 예방", "anemia", "빈혈에 좋습니다.", "Prevents anemia."],
     ["임산부 건강", "pregnant woman", "임산부에게 좋습니다", "Good for pregnant women."],
-    ["탈모 예방", "hair loss", "탈모를 예방합니다.", "Prevent hair loss."]
+    ["탈모 예방", "hair loss", "탈모를 예방합니다.", "Prevent hair loss."],
+    ["뼈 건강", "bone health", "뼈와 골격에 좋습니다.", "Good for bone health."],
+    ["성장 발달", "child growth", "어린이 성장에 좋습니다.", "Helps develop children's growth"],
+    ["혈관 개선", "blood vessel", "혈관에 좋습니다.", "Good for blood vessels"]
   ]
 }
