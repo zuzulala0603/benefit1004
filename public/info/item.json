@@ -6,6 +6,7 @@
     ["블루베리", "blueberry", "fruit"],
     ["감자", "potato", "vegatable"],
     ["딸기", "strawberry", "fruit"],
-    ["연어", "salmon", "fish"]
+    ["연어", "salmon", "fish"],
+    ["옥수수", "corn", "grain"]
   ]
 }
