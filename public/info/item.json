@@ -7,6 +7,7 @@
     ["감자", "potato", "vegatable"],
     ["딸기", "strawberry", "fruit"],
     ["연어", "salmon", "fish"],
-    ["옥수수", "corn", "grain"]
+    ["옥수수", "corn", "grain"],
+    ["오렌지", "orange", "fruit"]
   ]
 }
