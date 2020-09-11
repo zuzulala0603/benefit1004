@@ -232,7 +232,6 @@ submitBtn.addEventListener("click", () => {
       <script src="/static/js/load.js"></script>
       <script src="/static/js/menu.js"></script>
       <script src="/static/js/util.js"></script>
-      <script src="/static/js/search.js"></script>
     </body>
   </html>
   `;
@@ -409,7 +408,6 @@ submitBtn.addEventListener("click", () => {
       <script src="/static/js/load.js"></script>
       <script src="/static/js/menu.js"></script>
       <script src="/static/js/util.js"></script>
-      <script src="/static/js/search.js"></script>
     </body>
   </html>
   `;
