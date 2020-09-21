@@ -1,18 +1,16 @@
 const express = require("express");
 const router = express.Router();
 
-router.get("/ko", (req, res) => {
-  res.render("ko/index");
-});
-router.get("/en", (req, res) => {
-  res.render("en/index");
+router.get("/:language", (req, res) => {
+  res.render(req.params.language + "/index");
 });
 
-router.get("/ko/item/:item", (req, res) => {
-  res.render("ko/" + req.params.item);
+router.get("/:language/:category", (req, res) => {
+  res.render(req.params.language + "/category/index");
 });
 
-router.get("/en/item/:item", (req, res) => {
-  res.render("en/" + req.params.item);
+router.get("/:language/:category/:item", (req, res) => {
+  res.render(req.params.language + "/category/" + req.params.category + "/" + req.params.item);
 });
+
 module.exports = router;

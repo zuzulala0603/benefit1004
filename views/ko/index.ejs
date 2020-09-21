@@ -19,12 +19,12 @@
     <link rel="stylesheet" href="/static/css/index.css" />
     <title>이 세상 모듬 음식의 효능 | Benefit1004</title>
     <!-- Meta -->
-    <meta name="description" content="효능 백과사전 - 당신이 궁금한 모든 음식의 효능들을 모았습니다." />
+    <meta name="description" content="우리 주변에서 볼 수 있는 모든 음식의 효능을 모은 음식 효능 백과사전" />
     <meta property="og:locale" content="ko_KR" />
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="Benefit1004" />
     <meta property="og:title" content="이 세상 모듬 음식의 효능 | Benefit1004" />
-    <meta property="og:description" content="효능 백과사전 - 당신이 궁금한 모든 음식의 효능들을 모았습니다." />
+    <meta property="og:description" content="우리 주변에서 볼 수 있는 모든 음식의 효능을 모은 음식 효능 백과사전" />
     <meta property="og:image" content="/static/img/logo.png" />
     <meta property="og:image:width" content="500" />
     <meta property="og:image:height" content="750" />
@@ -41,31 +41,31 @@
       </section>
       <div class="hr">카테고리</div>
       <section id="cards">
-        <div class="card card__category">
+        <div class="card card__category" onclick="location.href=`/ko/fruit`">
           <div class="card__icon">
             <i class="fas fa-apple-alt"></i>
           </div>
           <div class="card__category__title">과일</div>
         </div>
-        <div class="card card__category">
+        <div class="card card__category" onclick="location.href=`/ko/vegetable`">
           <div class="card__icon">
             <i class="fas fa-seedling"></i>
           </div>
           <div class="card__category__title">채소</div>
         </div>
-        <div class="card card__category">
+        <div class="card card__category" onclick="location.href=`/ko/meat`">
           <div class="card__icon">
             <i class="fas fa-drumstick-bite"></i>
           </div>
           <div class="card__category__title">육류</div>
         </div>
-        <div class="card card__category">
+        <div class="card card__category" onclick="location.href=`/ko/fish`">
           <div class="card__icon">
             <i class="fas fa-fish"></i>
           </div>
           <div class="card__category__title">어류</div>
         </div>
-        <div class="card card__category">
+        <div class="card card__category" onclick="location.href=`/ko/grain`">
           <div class="card__icon">
             <i class="fas fa-mortar-pestle"></i>
           </div>
@@ -86,5 +86,11 @@
     <script src="/static/js/getData.js"></script>
     <script src="/static/js/search.js"></script>
     <script src="/static/js/indexLayout.js"></script>
+    <script>
+      if (language == "en") {
+        location.href = "/en";
+      }
+    </script>
+    <script></script>
   </body>
 </html>

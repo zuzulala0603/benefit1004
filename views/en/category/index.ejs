@@ -34,57 +34,32 @@
     <section id="menu" class="menu"></section>
     <main>
       <section id="searchM">
-        <input type="text" class="searchM__input searchInput" placeholder="search.." />
+        <input type="text" class="searchM__input searchInput" placeholder="검색어를 입력하세요." />
         <div class="icon__block">
           <i class="fas fa-search searchM__icon"></i>
         </div>
       </section>
-      <div class="hr">Category</div>
-      <section id="cards">
-        <div class="card card__category" onclick="location.href=`/en/fruit`">
-          <div class="card__icon">
-            <i class="fas fa-apple-alt"></i>
-          </div>
-          <div class="card__category__title">FRUIT</div>
-        </div>
-        <div class="card card__category" onclick="location.href=`/en/vegetable`">
-          <div class="card__icon">
-            <i class="fas fa-seedling"></i>
-          </div>
-          <div class="card__category__title">VEGETABLE</div>
-        </div>
-        <div class="card card__category" onclick="location.href=`/en/meat`">
-          <div class="card__icon">
-            <i class="fas fa-drumstick-bite"></i>
-          </div>
-          <div class="card__category__title">MEAT</div>
-        </div>
-        <div class="card card__category" onclick="location.href=`/en/fish`">
-          <div class="card__icon">
-            <i class="fas fa-fish"></i>
-          </div>
-          <div class="card__category__title">FISH</div>
-        </div>
-        <div class="card card__category" onclick="location.href=`/en/grain`">
-          <div class="card__icon">
-            <i class="fas fa-mortar-pestle"></i>
-          </div>
-          <div class="card__category__title">GRAIN</div>
-        </div>
-      </section>
-      <div class="hr">UPDATE</div>
+      <div class="hr"></div>
       <section id="cards" class="cards__item"></section>
     </main>
 
     <section id="footer"></section>
-    <!--     <section id="footer"></section>
-    
-    <i class="fas fa-search searchM__icon"></i> -->
+
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <script src="/static/js/load.js"></script>
-    <script src="/static/js/getData.js"></script>
+    <script src="/static/js/category.js"></script>
     <script src="/static/js/search.js"></script>
     <script src="/static/js/indexLayout.js"></script>
+    <script>
+      let logo = document.querySelector(".header__logo");
+      logo.addEventListener("click", () => {
+        if (country == "en") {
+          window.location = "/en";
+        } else if (country == "ko") {
+          window.location = "/ko";
+        }
+      });
+    </script>
   </body>
 </html>

@@ -4,10 +4,11 @@
     ["포도", "grape", "fruit"],
     ["사과", "apple", "fruit"],
     ["블루베리", "blueberry", "fruit"],
-    ["감자", "potato", "vegatable"],
+    ["감자", "potato", "vegetable"],
     ["딸기", "strawberry", "fruit"],
     ["연어", "salmon", "fish"],
     ["옥수수", "corn", "grain"],
-    ["오렌지", "orange", "fruit"]
+    ["오렌지", "orange", "fruit"],
+    ["당근", "carrot", "vegetable"]
   ]
 }
