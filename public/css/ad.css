@@ -31,12 +31,7 @@ iframe {
     background-color: white;
   }
   #adBlock__footer {
-    display: block;
-    margin-top: 0;
-    margin-bottom: 0;
-    position: fixed;
-    bottom: -5px;
-    margin-left: 0;
+    display: none;
   }
   #adBlock__asdide {
     display: none;

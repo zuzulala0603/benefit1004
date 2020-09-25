@@ -1,6 +1,10 @@
 const express = require("express");
 const router = express.Router();
 
+router.get("/plus", (req, res) => {
+  res.render("plus");
+});
+
 router.get("/:language", (req, res) => {
   res.render(req.params.language + "/index");
 });

@@ -2,6 +2,8 @@ let benefit_ko = [];
 let benefit_en = [];
 let benefitDetail_ko = [];
 let benefitDetail_en = [];
+let benefitDescription_ko = [];
+let benefitDescription_en = [];
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ  */
 let pushBtn = document.querySelector(".input__plusBtn");
 let submitBtn = document.querySelector(".submitBtn");
@@ -13,14 +15,14 @@ $.getJSON("../static/info/benefit.json", function (data) {
     benefit_en.push(element[1]);
     benefitDetail_ko.push(element[2]);
     benefitDetail_en.push(element[3]);
+    benefitDescription_ko.push(element[4]);
+    benefitDescription_en.push(element[5]);
   });
 
   pushBtn.addEventListener("click", () => {
     let newHtml = `          <div class="benefit__block">
     <input type="text" class="input__item__tag" />
     <hr />
-    <textarea name="" id="" cols="30" rows="10" class="input__item__benefit__ko benefit"></textarea>
-    <textarea name="" id="" cols="30" rows="10" class="input__item__benefit__en benefit"></textarea>
     <hr />
   </div>`;
     $(".pushblock").append(newHtml);
@@ -47,20 +49,22 @@ $.getJSON("../static/info/benefit.json", function (data) {
 submitBtn.addEventListener("click", () => {
   let name_ko = document.querySelector(".input__item__name__ko").value;
   let name_en = document.querySelector(".input__item__name__en").value;
-  let description_ko = document.querySelector(".input__item__description__ko").value;
-  let description_en = document.querySelector(".input__item__description__en").value;
+  /*   let description_ko = document.querySelector(".input__item__description__ko").value;
+  let description_en = document.querySelector(".input__item__description__en").value; */
   let classification_ko = document.querySelector(".input__item__classification__ko").value;
   let classification_en = document.querySelector(".input__item__classification__en").value;
   let kcal = document.querySelector(".input__item__kcal").value;
 
   /*  */
-
-  let benefitBody_ko = [];
-  let benefitBody_en = [];
+  let description_ko = `우리 주변에서 쉽게 볼수 있는 ${name_ko}. 맛이 좋을 뿐만 아니라 몸에 좋은 효능들이 많이 있다. 다양한 요리에 활용되고 대부분 음식들에 잘 어울린다. ${name_ko} 효능들에 대해 알아보자.`;
+  let description_en = `${name_en}, which is easily found around us, not only taste good, but also have many benefits for the body. ${name_en} is used in various dishes and goes well. Let's take a look at the benefits of ${name_en}.`;
+  /*  */
   let benefit_select_ko = [];
   let benefit_select_en = [];
   let benefitDetail_select_ko = [];
   let benefitDetail_select_en = [];
+  let benefitDescription_select_ko = [];
+  let benefitDescription_select_en = [];
   let newTagHtml_ko = ``;
   let newTagHtml_en = ``;
   let newBenefitHtml_ko = ``;
@@ -69,18 +73,14 @@ submitBtn.addEventListener("click", () => {
   let metaDescriptionHtml_ko = "";
   let metaDescriptionHtml_en = "";
 
-  document.querySelectorAll(".input__item__benefit__ko").forEach((element) => {
-    benefitBody_ko.push(element.value);
-  });
-  document.querySelectorAll(".input__item__benefit__en").forEach((element) => {
-    benefitBody_en.push(element.value);
-  });
   document.querySelectorAll(".input__item__tag").forEach((element, index) => {
     let targetIndex = benefit_ko.indexOf(element.value);
     benefit_select_ko.push(element.value);
     benefit_select_en.push(benefit_en[targetIndex]);
     benefitDetail_select_ko.push(benefitDetail_ko[targetIndex]);
     benefitDetail_select_en.push(benefitDetail_en[targetIndex]);
+    benefitDescription_select_ko.push(benefitDescription_ko[targetIndex].replace("replaceTarget_name_ko", name_ko));
+    benefitDescription_select_en.push(benefitDescription_en[targetIndex].replace("replaceTarget_name_en", name_en));
 
     newTagHtml_ko += `<div class="intro__benefit__item tag">${benefit_select_ko[index]}</div>`;
     newTagHtml_en += `<div class="intro__benefit__item tag">${benefit_select_en[index]}</div>`;
@@ -92,7 +92,7 @@ submitBtn.addEventListener("click", () => {
     newBenefitHtml_ko += `        <div class="benefit" data-benefitnum="${index}">
     <div class="benefit__left">
       <div class="benefit__haeder article__header benefit__title">${index + 1}. ${benefitDetail_select_ko[index]}&nbsp;</div>
-      <div class="benefit__body">${benefitBody_ko[index]}</div>
+      <div class="benefit__body">${benefitDescription_select_ko[index]}</div>
     </div>
     <div class="benefit__right">
       <img src="/static/img/benefit/${benefit_select_en[index]}.jpg" class="benefit__img__style" alt="${benefit_select_en[index]}" srcset="" />
@@ -101,7 +101,7 @@ submitBtn.addEventListener("click", () => {
     newBenefitHtml_en += `        <div class="benefit" data-benefitnum="${index}">
   <div class="benefit__left">
     <div class="benefit__haeder article__header benefit__title">${index + 1}. ${benefitDetail_select_en[index]}&nbsp;</div>
-    <div class="benefit__body">${benefitBody_en[index]}</div>
+    <div class="benefit__body">${benefitDescription_select_en[index]}</div>
   </div>
   <div class="benefit__right">
     <img src="/static/img/benefit/${benefit_select_en[index]}.jpg" class="benefit__img__style" alt="${benefit_select_en[index]}" srcset="" />
@@ -120,7 +120,7 @@ submitBtn.addEventListener("click", () => {
       <script src="https://ads-partners.coupang.com/g.js"></script>
       <script src="/static/js/adNum.js"></script>
       <script data-ad-client="ca-pub-1432916343353764" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      <title>${name_ko}의 놀라운 효능 ${benefitBody_ko.length}가지! 알고 먹으면 더 좋은 ${name_ko} | Benefit1004</title>
+      <title>${name_ko}의 놀라운 효능 ${benefitDescription_select_ko.length}가지! 알고 먹으면 더 좋은 ${name_ko} | Benefit1004</title>
       <!-- CSS -->
       <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR&display=swap" rel="stylesheet" />
       <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet" />
@@ -139,7 +139,7 @@ submitBtn.addEventListener("click", () => {
       <meta property="og:locale" content="ko_KR" />
       <meta property="og:type" content="article" />
       <meta property="og:site_name" content="Benefit1004" />
-      <meta property="og:title" content=" ${name_ko}의 놀라운 효능 ${benefitBody_ko.length}가지! 알고 먹으면 더 좋은 ${name_ko} | Benefit1004" />
+      <meta property="og:title" content=" ${name_ko}의 놀라운 효능 ${benefitDescription_select_ko.length}가지! 알고 먹으면 더 좋은 ${name_ko} | Benefit1004" />
       <meta property="og:description" content="우리 주변에서 쉽게 찾을 수 있는 ${name_ko} 우리가 몰랐던 ${name_ko}의 효능들에는 무엇이 있을까? ${metaDescriptionHtml_ko}" />
       <meta property="og:image" content="/static/img/${name_en}/${name_en}_1.jpg" />
       <meta property="og:image:width" content="500" />
@@ -246,7 +246,7 @@ submitBtn.addEventListener("click", () => {
       <script src="https://ads-partners.coupang.com/g.js"></script>
       <script src="/static/js/adNum.js"></script>
       <script data-ad-client="ca-pub-1432916343353764" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-      <title> ${benefitBody_ko.length} Health benefits of ${name_en}! Let's check it out | Benefit1004</title>
+      <title> ${benefitDescription_select_ko.length} Health benefits of ${name_en}! Let's check it out | Benefit1004</title>
       <!-- CSS -->
       <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR&display=swap" rel="stylesheet" />
       <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet" />
@@ -265,7 +265,7 @@ submitBtn.addEventListener("click", () => {
       <meta property="og:locale" content="ko_KR" />
       <meta property="og:type" content="article" />
       <meta property="og:site_name" content="Benefit1004" />
-      <meta property="og:title" content=" ${benefitBody_ko.length} Health benefits of ${name_en}! | Benefit1004" />
+      <meta property="og:title" content=" ${benefitDescription_select_ko.length} Health benefits of ${name_en}! | Benefit1004" />
       <meta property="og:description" content="Wonderful health benefits of ${name_en} you might not know about. ${metaDescriptionHtml_en}" />
       <meta property="og:image" content="/static/img/${name_en}/${name_en}_1.jpg" />
       <meta property="og:image:width" content="500" />
