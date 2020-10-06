@@ -1,3 +1,5 @@
+/* 카테고리 추가 */
+
 let benefit_ko = [];
 let benefit_en = [];
 let benefitDetail_ko = [];
