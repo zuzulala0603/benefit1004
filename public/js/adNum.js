@@ -6,5 +6,4 @@ var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0)
 let item = window.location.pathname.split("/")[3];
 let country = window.location.pathname.split("/")[1];
 let language = window.navigator.userLanguage || window.navigator.language.split("-")[0];
-
-console.log(language);
+let itemCategory = [];

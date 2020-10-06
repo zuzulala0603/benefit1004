@@ -10,11 +10,6 @@
   word-break: break-all;
 }
 
-main {
-  overflow: scroll;
-  -webkit-overflow-scrolling: touch;
-}
-
 .hr {
   display: flex;
   width: 100%;

@@ -9,7 +9,6 @@ $(function () {
     select: function (event, ui) {
       let seletItem = ui.item.value;
       let itemLink = availableItem_en[availableItem_ko.indexOf(seletItem)];
-
       goToTargetLink(itemLink);
     },
     focus: function (event, ui) {
@@ -55,5 +54,7 @@ function enterkey() {
 }
 
 function goToTargetLink(targetItem) {
-  location.href = "/ko/item/" + targetItem;
+  let currentItemCategory = itemCategory[availableItem_en.indexOf(targetItem)];
+
+  location.href = `/ko/${currentItemCategory}/${targetItem}`;
 }
