@@ -8,6 +8,7 @@ $.getJSON("../static/info/item.json", function (data) {
   data.item.forEach((element, index) => {
     availableItem_ko.push(element[0]);
     availableItem_en.push(element[1]);
+    itemCategory.push(element[2]);
     if (element[2] == category) {
       currentCategoryItem.push([element[0], element[1]]);
     }

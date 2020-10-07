@@ -1,6 +1,5 @@
 let availableItem_ko = [];
 let availableItem_en = [];
-
 let cardsItem = document.querySelector(".cards__item");
 let newCardItemHtml = "";
 $.getJSON("../static/info/item.json", function (data) {
