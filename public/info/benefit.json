@@ -1,23 +1,156 @@
 {
   "benefit": [
-    ["장 건강", "digestion", "장 건강에 도움을 준다.", "Good for digestive health", "replaceTarget_name_ko는 장건강에 아주 짱입니다.", "replaceTarget_name_en is good!"],
-    ["혈압 개선", "blood pressure", "혈압에 좋다.", "Good for blood pressure", "replaceTarget_name_ko는 장건강에 아주 짱입니다.", "replaceTarget_name_en is good!"],
-    ["체중 감량", "diet", "체중 감량에 도움을 준다.", "Help with weight loss", "replaceTarget_name_ko는 장건강에 아주 짱입니다.", "replaceTarget_name_en is good!"],
-    ["눈 건강", "eye", "눈 건강에 도움을 준다.", "Help with eye health", "replaceTarget_name_ko는 장건강에 아주 짱입니다.", "replaceTarget_name_en is good!"],
-    ["피로 회복", "fatigue", "피로 회복에 좋다.", "Good for fatigue recovery", "replaceTarget_name_ko는 장건강에 아주 짱입니다.", "replaceTarget_name_en is good!"],
-    ["치아 건강", "teeth", "치아 건강에 좋다.", "Good for dental health", "replaceTarget_name_ko는 장건강에 아주 짱입니다.", "replaceTarget_name_en is good!"],
-    ["항암", "anticancer", "항암 효과가 있다.", "Anticancer effect", "replaceTarget_name_ko는 장건강에 아주 짱입니다.", "replaceTarget_name_en is good!"],
-    ["피부 미용", "skin", "피부를 아름답게 해준다.", "Make your skin beautiful", "replaceTarget_name_ko는 장건강에 아주 짱입니다.", "replaceTarget_name_en is good!"],
-    ["스트레스", "stress", "스트레스를 완화 해준다.", "It relieves stress.", "replaceTarget_name_ko는 장건강에 아주 짱입니다.", "replaceTarget_name_en is good!"],
-    ["뇌 기능", "brain", "뇌 기능을 향상시킨다.", "Improve brain function", "replaceTarget_name_ko는 장건강에 아주 짱입니다.", "replaceTarget_name_en is good!"],
-    ["당뇨 개선", "diabetes", "당뇨병 위험을 줄인다.", "Reduce your risk of diabetes", "replaceTarget_name_ko는 장건강에 아주 짱입니다.", "replaceTarget_name_en is good!"],
-    ["간 해독", "liver", "간을 해독시킨다.", "Detoxify the liver", "replaceTarget_name_ko는 장건강에 아주 짱입니다.", "replaceTarget_name_en is good!"],
-    ["면역력", "immunity", "면역력을 증진시킨다", "Improve your immune system", "replaceTarget_name_ko는 장건강에 아주 짱입니다.", "replaceTarget_name_en is good!"],
-    ["폐 기능", "lungs", "폐 기능을 향상시킨다.", "Increase lung capacity", "replaceTarget_name_ko는 장건강에 아주 짱입니다.", "replaceTarget_name_en is good!"],
-    ["빈혈 예방", "anemia", "빈혈에 좋습니다.", "Prevents anemia.", "replaceTarget_name_ko는 장건강에 아주 짱입니다.", "replaceTarget_name_en is good!"],
-    ["임산부 건강", "pregnant woman", "임산부에게 좋습니다", "Good for pregnant women.", "replaceTarget_name_ko는 장건강에 아주 짱입니다.", "replaceTarget_name_en is good!"],
-    ["탈모 예방", "hair loss", "탈모를 예방합니다.", "Prevent hair loss.", "replaceTarget_name_ko는 장건강에 아주 짱입니다.", "replaceTarget_name_en is good!"],
-    ["뼈 건강", "bone", "뼈와 골격에 좋습니다.", "Good for bone health.", "replaceTarget_name_ko는 장건강에 아주 짱입니다.", "replaceTarget_name_en is good!"],
-    ["혈관 개선", "blood vessel", "혈관에 좋습니다.", "Good for blood vessels", "replaceTarget_name_ko는 장건강에 아주 짱입니다.", "replaceTarget_name_en is good!"]
+    [
+      "장 건강",
+      "digestion",
+      "장 건강에 도움을 준다.",
+      "Good for digestive health",
+      "replaceTarget_name_ko 속에 포홤된 풍부한 식물성 식이섬유는 우리의 소화기관에 도움을 준다. 식이섬유는 우리가 음식으로부터 더 영양분을 잘 흡수할 수 있게하고, 유해균으로부터 장을 보호한다.",
+      "replaceTarget_name_en is good!"
+    ],
+    [
+      "혈압 개선",
+      "blood pressure",
+      "혈압에 좋다.",
+      "Good for blood pressure",
+      "replaceTarget_name_ko에 함유된 다량의 무기질은 혈압을 안정화 시키는데 도움이 된다. 이는 우리 혈관의 염증을 막고 혈액 순환에 개선이 되어 고혈압과 같은 질병을 예방할 수 있다.",
+      "replaceTarget_name_en is good!"
+    ],
+    [
+      "체중 감량",
+      "diet",
+      "체중 감량에 도움을 준다.",
+      "Help with weight loss",
+      "replaceTarget_name_ko의 지방함량은 적은 편에 속하고, 낮은 칼로리 덕분에 다이어트에 도움이 되는 식품 중 하나이다. 풍부한 섬유질은 우리에게 포만감을 주고 소화 기능을 정상화 시켜 체중 감량에 큰 도움이 된다.",
+      "replaceTarget_name_en is good!"
+    ],
+    [
+      "눈 건강",
+      "eye",
+      "눈 건강에 도움을 준다.",
+      "Help with eye health",
+      "replaceTarget_name_ko는 장건강에 아주 짱입니다.",
+      "replaceTarget_name_en is good!"
+    ],
+    [
+      "피로 회복",
+      "fatigue",
+      "피로 회복에 좋다.",
+      "Good for fatigue recovery",
+      "replaceTarget_name_ko는 장건강에 아주 짱입니다.",
+      "replaceTarget_name_en is good!"
+    ],
+    [
+      "치아 건강",
+      "teeth",
+      "치아 건강에 좋다.",
+      "Good for dental health",
+      "replaceTarget_name_ko는 장건강에 아주 짱입니다.",
+      "replaceTarget_name_en is good!"
+    ],
+    [
+      "항암",
+      "anticancer",
+      "항암 효과가 있다.",
+      "Anticancer effect",
+      "replaceTarget_name_ko는 장건강에 아주 짱입니다.",
+      "replaceTarget_name_en is good!"
+    ],
+    [
+      "피부 미용",
+      "skin",
+      "피부를 아름답게 해준다.",
+      "Make your skin beautiful",
+      "replaceTarget_name_ko는 장건강에 아주 짱입니다.",
+      "replaceTarget_name_en is good!"
+    ],
+    [
+      "스트레스",
+      "stress",
+      "스트레스를 완화 해준다.",
+      "It relieves stress.",
+      "replaceTarget_name_ko는 장건강에 아주 짱입니다.",
+      "replaceTarget_name_en is good!"
+    ],
+    [
+      "뇌 기능",
+      "brain",
+      "뇌 기능을 향상시킨다.",
+      "Improve brain function",
+      "replaceTarget_name_ko는 장건강에 아주 짱입니다.",
+      "replaceTarget_name_en is good!"
+    ],
+    [
+      "당뇨 개선",
+      "diabetes",
+      "당뇨병 위험을 줄인다.",
+      "Reduce your risk of diabetes",
+      "replaceTarget_name_ko는 장건강에 아주 짱입니다.",
+      "replaceTarget_name_en is good!"
+    ],
+    [
+      "간 해독",
+      "liver",
+      "간을 해독시킨다.",
+      "Detoxify the liver",
+      "replaceTarget_name_ko는 장건강에 아주 짱입니다.",
+      "replaceTarget_name_en is good!"
+    ],
+    [
+      "면역력",
+      "immunity",
+      "면역력을 증진시킨다",
+      "Improve your immune system",
+      "replaceTarget_name_ko는 장건강에 아주 짱입니다.",
+      "replaceTarget_name_en is good!"
+    ],
+    [
+      "폐 기능",
+      "lungs",
+      "폐 기능을 향상시킨다.",
+      "Increase lung capacity",
+      "replaceTarget_name_ko는 장건강에 아주 짱입니다.",
+      "replaceTarget_name_en is good!"
+    ],
+    [
+      "빈혈 예방",
+      "anemia",
+      "빈혈에 좋습니다.",
+      "Prevents anemia.",
+      "replaceTarget_name_ko는 장건강에 아주 짱입니다.",
+      "replaceTarget_name_en is good!"
+    ],
+    [
+      "임산부 건강",
+      "pregnant woman",
+      "임산부에게 좋습니다",
+      "Good for pregnant women.",
+      "replaceTarget_name_ko는 장건강에 아주 짱입니다.",
+      "replaceTarget_name_en is good!"
+    ],
+    [
+      "탈모 예방",
+      "hair loss",
+      "탈모를 예방합니다.",
+      "Prevent hair loss.",
+      "replaceTarget_name_ko는 장건강에 아주 짱입니다.",
+      "replaceTarget_name_en is good!"
+    ],
+    [
+      "뼈 건강",
+      "bone",
+      "뼈와 골격에 좋습니다.",
+      "Good for bone health.",
+      "replaceTarget_name_ko는 장건강에 아주 짱입니다.",
+      "replaceTarget_name_en is good!"
+    ],
+    [
+      "혈관 개선",
+      "blood vessel",
+      "혈관에 좋습니다.",
+      "Good for blood vessels",
+      "replaceTarget_name_ko는 장건강에 아주 짱입니다.",
+      "replaceTarget_name_en is good!"
+    ]
   ]
 }
